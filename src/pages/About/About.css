@@ -1,0 +1,136 @@
+
+.about{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    animation-name: apear;
+    animation-duration: 1s;
+}
+
+.about h2{
+    width: 90%;
+    font-size: 50px;
+    margin: 40px 0;
+    color: #F5CB5C;
+}
+
+.about > p{
+    width: 90%;
+}
+
+.about section{
+    width: 55%;
+}
+
+.about section h3{
+    margin-block: 40px;
+    color: #F5CB5C;
+}
+
+.about section .ul-container{
+    padding: 20px 0px 20px 30px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.about section ul{
+    padding: 20px;
+    border-left: 3px solid #f0c541;
+}
+
+.about section ul li{
+    padding: 20px;
+    list-style: none;
+
+}
+
+.about section ul li::before{
+    content: '◆';
+    width: 50px;
+    position: relative;
+    top: 20px;
+    right: 48px;
+    color: #f0c541;
+}
+
+/* 
+li::marker{
+    content: '◆';
+    color: #f0c541;
+
+} */
+
+/*  
+.about section ul li::marker {
+    content: '◆';
+    width: 5px;
+    height: 5px;
+    color: #f0c541;
+    border-radius: 50%;
+} */
+
+.about section ul li span{
+    display: flex;
+    font-size: 0.9rem;
+    color: #f0c541;
+}
+
+
+@media (max-width: 540px) {
+    .about{
+        width: 100%;
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        animation-name: apear;
+        animation-duration: 1s;
+    }
+
+    .about h2{
+        width: 90%;
+        font-size: 50px;
+        margin: 30px 0;
+        color: #F5CB5C;
+    }    
+
+    .about > p{
+        width: 90%;
+    }
+
+    .about section{
+        width: 100%;
+    }
+
+    .about section .ul-container{
+        padding: 20px 0px 20px 20px;
+    }
+    
+    .about section ul{
+        padding: 5px;
+        border-left: 3px solid #f0c541;
+    }
+
+    .about section ul li::before{
+        content: '◆';
+        width: 50px;
+        position: relative;
+        top: 20px;
+        right: 33px;
+        color: #f0c541;
+    }
+    
+}
+
+@keyframes apear {
+    from { 
+        opacity: 0%;
+        margin-left: 10px;
+    }
+    to { 
+        opacity: 100%;
+        margin-left: none;
+    }
+}

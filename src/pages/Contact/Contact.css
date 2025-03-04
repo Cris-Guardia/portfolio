@@ -1,0 +1,116 @@
+.contact{
+    width: 100%;
+    height: 92vh;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    animation-name: apear;
+    animation-duration: 1s;
+}
+
+.contact section{
+    width: 50%;
+    padding: 5vh 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 2px 2px 5px black;
+    
+    /* align-content: space-around; */
+    /* border: 5px solid #F5CB5C; */
+}
+
+.contact h2{
+    width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    /* margin: 10px 0; */
+    color: #F5CB5C;
+}
+
+.contact ul{
+    width: 100%;
+}
+
+.contact ul li{
+    width: 100%;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+.contact ul li a{
+    text-decoration: none;
+}
+ 
+.contact ul li a svg{
+    margin-right: 20px;
+}
+
+@media (max-width: 540px) {
+    .contact{
+        width: 100%;
+        height: 92vh;
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+        animation-name: apear;
+        animation-duration: 1s;
+    }
+    
+    .contact section{
+        width: 100%;
+        padding: 5vh 10px;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        box-shadow: 2px 2px 5px black;
+        
+        /* align-content: space-around; */
+        /* border: 5px solid #F5CB5C; */
+    }
+    
+    .contact h2{
+        width: 100%;
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+        /* margin: 10px 0; */
+        color: #F5CB5C;
+    }
+    
+    .contact ul{
+        width: 100%;
+    }
+    
+    .contact ul li{
+        width: 100%;
+        margin: 20px 0;
+        font-size: 1.2rem;
+        list-style: none;
+    }
+    
+    .contact ul li a{
+        text-decoration: none;
+    }
+     
+    .contact ul li a svg{
+        margin-right: 20px;
+    }
+}
+
+@keyframes apear {
+    from { 
+        opacity: 0%;
+        margin-left: 10px;
+    }
+    to { 
+        opacity: 100%;
+        margin-left: none;
+    }
+}
