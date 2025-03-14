@@ -17,7 +17,7 @@ function Home(){
                     Passioné pour le developement de logiciel et étudiant en
                     Génie Électrique et Informatique Industrielle (GEII).
                 </p>
-                <Button content={'Telecharger CV'} address={'./cv-cristofer-guardia.pdf'}></Button>
+                <Button content={'  Mon CV  '} address={'./cv-cristofer-guardia.pdf'}></Button>
             </div>
             <figure>
                 <img src='./photo-cristofer.png' alt='Cristofer Guardia' />

@@ -20,6 +20,10 @@
     width: 90%;
 }
 
+.about p ul li{
+    margin-left: 20px;
+}
+
 .about section{
     width: 55%;
 }

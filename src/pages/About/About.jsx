@@ -12,10 +12,15 @@ function About(){
             <h2>Sur moi</h2>
 
             <p>
-                Venezuelian, etudiant international et autonome das le domain du web developement Frontend dans divers technologies comme HTML, CSS, Javascript, React.js, et aussi en Backend Express.js.
-                En premier anée de Génie Électrique et Informatique Industrielle a L’IUT de Tarbes, passionné pour l’informatique et le développement de logiciel.
-                Précédemment, poursuivreur des études en Ingenierie Informatique au Venezuela lors d’un an, expérience qui a attiré mon intérêt pour le secteur du logiciel. 
-                Je suis vissé en devenir Ingénieur en Informatique et me spécialiser dans le cadre de l’Informatique Industrielle
+                Vénézuélien, étudiant international et autonome. Actuellement en première année de Génie Électrique et Informatique Industrielle à l’IUT de Tarbes, je suis passionné par l’informatique et le développement logiciel.
+                Auparavant, j’ai poursuivi des études en Ingénierie Informatique au Venezuela pendant un an, une expérience qui a renforcé mon intérêt pour le secteur du logiciel. Mon objectif est de devenir Ingénieur en Informatique et de me spécialiser dans le domaine de l’Informatique Industrielle.
+                Je possède des compétences en développement web Frontend, maîtrisant diverses technologies telles que HTML, CSS, JavaScript, React.js, ainsi qu’en Backend avec Express.js.
+                Par ailleurs, je parle :
+                <ul>
+                    <li>Français : DELF B2.</li>
+                    <li>Anglais : Courant.</li>
+                    <li>Espagnol : Langue maternelle.</li>
+                </ul>
             </p>
 
             <section>

@@ -1,0 +1,35 @@
+
+.projects{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    animation-name: apear;
+    animation-duration: 1s;
+}
+
+
+.projects h2{
+    width: 90%;
+    font-size: 50px;
+    margin: 40px 0;
+    color: #F5CB5C;
+}
+
+.projects div h3{
+    margin-block: 10px;
+    color: #F5CB5C;
+}
+
+
+@keyframes apear {
+    from { 
+        opacity: 0%;
+        margin-left: 10px;
+    }
+    to { 
+        opacity: 100%;
+        margin-left: none;
+    }
+}
