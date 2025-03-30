@@ -11,9 +11,11 @@ import { Button } from '../Button/Button'
 
 function Navigation(){
     const [menuOpen, setMenuOpen] = useState(false);
+    
     const showNav = () => {
         setMenuOpen(!menuOpen)
     }
+    
     return(
         <nav>
             <h3>
@@ -26,26 +28,25 @@ function Navigation(){
 
             <ul className={`ul-links ${menuOpen ? 'open' : ''}`}>
                 <li>
-                    <NavLink
-                    to='/portfolio/'>
+                    <NavLink to='/portfolio/' end className={({isActive}) => isActive ? 'active-link' : ''}>
                         <LuHouse />
                         Accueil
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/portfolio/about'>
+                    <NavLink to='/portfolio/about' className={({isActive}) => isActive ? 'active-link' : ''}>
                         <FaRegUser />
                         Sur moi
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/portfolio/projects'>
+                    <NavLink to='/portfolio/projects' className={({isActive}) => isActive ? 'active-link' : ''}>
                         <PiHandbagSimpleBold />
-                        Projects
+                        Projets
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/portfolio/contact'>
+                    <NavLink to='/portfolio/contact' className={({isActive}) => isActive ? 'active-link' : ''}>
                         <FiMessageSquare />
                         Contact
                     </NavLink>
