@@ -17,7 +17,8 @@ function Contact(){
                 <h2>Contact me</h2>
                 <ul>
                     <li>
-                        <a href='./'>
+                        
+                        <a href='mailto:cristofer10501@gmail.com'>
                             <CiMail />
                             cristofer10501@gmail.com
                         </a>

@@ -4,7 +4,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 nav h3 {
@@ -19,25 +18,31 @@ nav h3 {
     justify-content: center;
     /* text-align: center; */
 }
-
+/* 
 nav {
     padding: 0;
     
     display: flex;
     align-items: center;
-}
+} */
 
 nav ul {
     width: 60%;
+    height: 100%;
     padding: 0;
     list-style: none;
     
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
 }
 
 nav ul li {
     width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     border-bottom: solid;
 }
 
@@ -48,4 +53,47 @@ nav ul li a{
     justify-content: space-around;
       
     text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: #1a1a1a;
+}
+
+@media (max-width: 768px) {
+    nav{
+        padding: 5px;    
+        display: flex;
+        align-items: center;
+        z-index: 1000;
+
+    }
+    
+    nav h3 {
+        width: 80%;
+    }
+
+    .ul-links{
+        display: none;
+    }
+    
+    .ul-links.open{
+        height: 92vh;
+        position: absolute;
+        top: 8vh;
+        right: 0px;
+        bottom: 0px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* background-color: blue; */
+        box-shadow: -5px -5px 20px #1a1a1a;
+        background-color: #242423;
+    }
+    
+    .ul-links.open li{
+        margin: 20px 0px;
+        width: 80%;
+        height: 5%;
+    }
 }

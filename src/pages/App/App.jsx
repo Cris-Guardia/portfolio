@@ -9,19 +9,19 @@ import './App.css'
 function AppRoutes(){
   const routes = useRoutes([
     {
-      path: '/',
+      path: 'portfolio/',
       element: <Home />
     },
     {
-      path: '/about',
+      path: 'portfolio/about',
       element: <About />
     },
     {
-      path: '/projects',
+      path: 'portfolio/projects',
       element: <Projects />
     },
     {
-      path: '/contact',
+      path: 'portfolio/contact',
       element: <Contact />
     }
   ])

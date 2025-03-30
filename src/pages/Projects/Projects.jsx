@@ -1,3 +1,4 @@
+import { Button } from '../../components/Button/Button'
 
 import './Projects.css'
 
@@ -15,6 +16,7 @@ function Projects(){
                     La bibliothèque DJITello a été utilisée pour manipuler les mouvements.
                     Grâce à la bibliothèque OpenCV, l’interprétation des images a permis de guider le déplacement et de générer une réaction du drone.
                 </p>
+                <Button content={'Voir project'} address='https://github.com/Cris-Guardia/Detection-de-Coleur-Drone'></Button>
             </div>
             <div>
                 <h3>Soudure de carte électronique.</h3>
@@ -47,6 +49,7 @@ function Projects(){
                     La partie frontend a été développée avec HTML, CSS, JavaScript et EJS (utilisé pour intégrer des composants HTML dans JavaScript).
                     Le backend a été développé avec Express.js (bibliothèque de Node.js) et MongoDB (outil de gestion de bases de données non relationnelles).
                 </p>
+                <Button content={'Voir project'} address='https://github.com/Cris-Guardia/Bank-FullStak-js'></Button>
             </div>
         </main>
     )

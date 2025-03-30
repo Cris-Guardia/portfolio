@@ -83,6 +83,7 @@ function About(){
                                 <CiCalendar />
                                 <h6>Aout 2023 - Aout 2024</h6>
                             </span>
+                            <h4>Green Deli restaurant, Paris</h4>
                             <p>
                                 Employé polyvalent responsable de la préparation des plats,
                                 le service aux clients, nettoyage et de l'entretien du restaurant.
@@ -93,6 +94,7 @@ function About(){
                                 <CiCalendar />
                                 <h6>Avril 2023 - Aout 2023</h6>
                             </span>
+                            <h4>Totuma restaurant, Paris</h4>
                             <p>
                                 En charge de l'accueil des clients, de la prise de commande et de l'élaboration des boissons. 
                                 Soutien de l'équipe en cuisine pour la préparation des plats.

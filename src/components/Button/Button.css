@@ -6,3 +6,22 @@ button{
     color: #fff;
     background-color: #F5CB5C;
 }
+
+.btn-menu{
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.btn-menu:hover{
+    background-color: #1a1a1a;
+}
+
+@media (max-width: 768px) {
+    .btn-menu {
+        display: block; /* Show menu button */
+    }
+}

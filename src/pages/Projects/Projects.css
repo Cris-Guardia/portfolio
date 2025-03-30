@@ -1,6 +1,8 @@
 
 .projects{
+    width: 70%;
     padding: 50px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -17,9 +19,31 @@
     color: #F5CB5C;
 }
 
+.projects div{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .projects div h3{
     margin-block: 10px;
     color: #F5CB5C;
+}
+
+.projects div p{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 540px) {
+    .projects{
+        width: 100%;
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        animation-name: apear;
+        animation-duration: 1s;
+    }
 }
 
 
@@ -33,3 +57,4 @@
         margin-left: none;
     }
 }
+
