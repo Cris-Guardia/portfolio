@@ -20,7 +20,7 @@ button{
     background-color: #1a1a1a;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 854px) {
     .btn-menu {
         display: block; /* Show menu button */
     }

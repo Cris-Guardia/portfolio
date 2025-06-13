@@ -14,7 +14,7 @@ function Contact(){
     return(
         <main className='contact'>  
             <section>
-                <h2>Contact me</h2>
+                <h2>Contactez-moi</h2>
                 <ul>
                     <li>
                         
@@ -43,13 +43,13 @@ function Contact(){
                             Cris-guardia
                         </a>
                     </li>
-                    <li>
-                        <a href='https://www.google.com/maps/search/?api=1&query=Tarbes,France'
+                    {/* <li>
+                        <a href='https://www.google.com/maps/search/?api=1&query=Bordeaux,France'
                         target='_blank' rel='noopener noreferrer'>
                             <GrLocation />
-                            Tarbes, 65000, France    
+                            Bordeaux, 33000, France    
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
             </section>
         </main>

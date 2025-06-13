@@ -1,5 +1,6 @@
 
 .about{
+    width: 100%;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -25,7 +26,7 @@
 }
 
 .about section{
-    width: 55%;
+    width: 75%;
 }
 
 .about section h3{
@@ -58,6 +59,12 @@
     color: #f0c541;
 }
 
+.about section ul li span{
+    display: flex;
+    font-size: 0.9rem;
+    color: #f0c541;
+}
+
 /* 
 li::marker{
     content: '◆';
@@ -74,17 +81,13 @@ li::marker{
     border-radius: 50%;
 } */
 
-.about section ul li span{
-    display: flex;
-    font-size: 0.9rem;
-    color: #f0c541;
-}
 
 
 @media (max-width: 540px) {
-    .about{
+    /* .about{
         width: 100%;
         padding: 50px;
+        
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
@@ -124,8 +127,10 @@ li::marker{
         top: 20px;
         right: 33px;
         color: #f0c541;
+    } */
+    .about section{
+        width: 100%;
     }
-    
 }
 
 @keyframes apear {

@@ -9,7 +9,7 @@ import './About.css'
 function About(){
     return(
         <main className='about'>
-            <h2>Sur moi</h2>
+            <h2>À propos de moi</h2>
 
             <p>
                 Vénézuélien, étudiant international et autonome. Actuellement en première année de Génie Électrique et Informatique Industrielle à l’IUT de Tarbes, je suis passionné par l’informatique et le développement logiciel.
@@ -24,14 +24,14 @@ function About(){
             </p>
 
             <section>
-                <h3>Etudes</h3>
+                <h3>Études</h3>
 
                 <div className='ul-container'>
                     <ul>
                         <li>
                             <span>
                                 <CiCalendar />
-                                <h6>A partir du septembre 2024</h6>
+                                <h6>À partir de septembre 2024</h6>
                             </span>
                             <h4>I.U.T de Tarbes</h4>
                             <p>
@@ -46,15 +46,15 @@ function About(){
                             </span>
                             <h4>Campus Langues, Paris</h4>
                             <p>
-                                Etude de la langue française acquérant des compétences linguistiques solides et une bonne maîtrise à l'écrit comme à l'oral.
+                                Étude de la langue française, acquérant des compétences linguistiques solides et une bonne maîtrise à l'écrit comme à l'oral.
                             </p>
                         </li>
                         <li>
                             <span>
                                 <CiCalendar />
-                                <h6>Janvier 2021 - Decembre 2022</h6>
+                                <h6>Janvier 2021 - Décembre 2022</h6>
                             </span>
-                            <h4>UNET (Universidad Nacional Exprerimental Del Táchira]</h4>
+                            <h4>UNET (Au Venezuela)</h4>
                             <p>
                                 Ingénierie en informatique et développement de logiciels.
                             </p>
@@ -64,37 +64,37 @@ function About(){
             </section>
 
             <section>
-                <h3>Experiences profesionels</h3>
+                <h3>Expériences professionnelles</h3>
 
                 <div className='ul-container'>
                     <ul>
                         <li>
                             <span>
                                 <CiCalendar />
-                                <h6>à partir du decembre 2024</h6>
+                                <h6>À partir de décembre 2024</h6>
                             </span>
-                            <h4>McDonals, Tarbes</h4>
+                            <h4>McDonald's, Tarbes</h4>
                             <p>
-                                Employé polyvalent responsable de la préparation des plats et le nettoyage.
+                                Employé polyvalent responsable de la préparation des plats et du nettoyage.
                             </p>
                         </li>
                         <li>
                             <span>
                                 <CiCalendar />
-                                <h6>Aout 2023 - Aout 2024</h6>
+                                <h6>Août 2023 - Août 2024</h6>
                             </span>
-                            <h4>Green Deli restaurant, Paris</h4>
+                            <h4>Restaurant Green Deli, Paris</h4>
                             <p>
-                                Employé polyvalent responsable de la préparation des plats,
-                                le service aux clients, nettoyage et de l'entretien du restaurant.
+                                Employé polyvalent responsable de la préparation des plats, 
+                                le service aux clients, le nettoyage et l’entretien du restaurant.
                             </p>
                         </li>
                         <li>
                             <span>
                                 <CiCalendar />
-                                <h6>Avril 2023 - Aout 2023</h6>
+                                <h6>Avril 2023 - Août 2023</h6>
                             </span>
-                            <h4>Totuma restaurant, Paris</h4>
+                            <h4>Restaurant Totuma, Paris</h4>
                             <p>
                                 En charge de l'accueil des clients, de la prise de commande et de l'élaboration des boissons. 
                                 Soutien de l'équipe en cuisine pour la préparation des plats.

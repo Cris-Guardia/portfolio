@@ -18,6 +18,7 @@ function Navigation(){
     
     return(
         <nav>
+            {menuOpen && <div className='bg-blur'></div>}
             <h3>
                 Cristofer Guardia
             </h3>
@@ -26,27 +27,30 @@ function Navigation(){
                 
             </Button>
 
-            <ul className={`ul-links ${menuOpen ? 'open' : ''}`}>
+            <ul className={`ul-links ${menuOpen ? 'open' : 'disapear'}`}>
+                <Button className={'btn-menu'} onClick={showNav} content={menuOpen ? <FiX /> : <IoIosMenu/>}>
+                
+                </Button>
                 <li>
-                    <NavLink to='/portfolio/' end className={({isActive}) => isActive ? 'active-link' : ''}>
+                    <NavLink to='/' end className={({isActive}) => isActive ? 'active-link' : ''}>
                         <LuHouse />
                         Accueil
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/portfolio/about' className={({isActive}) => isActive ? 'active-link' : ''}>
+                    <NavLink to='/about' className={({isActive}) => isActive ? 'active-link' : ''}>
                         <FaRegUser />
                         Sur moi
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/portfolio/projects' className={({isActive}) => isActive ? 'active-link' : ''}>
+                    <NavLink to='/projects' className={({isActive}) => isActive ? 'active-link' : ''}>
                         <PiHandbagSimpleBold />
                         Projets
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/portfolio/contact' className={({isActive}) => isActive ? 'active-link' : ''}>
+                    <NavLink to='/contact' className={({isActive}) => isActive ? 'active-link' : ''}>
                         <FiMessageSquare />
                         Contact
                     </NavLink>

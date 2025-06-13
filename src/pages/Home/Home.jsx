@@ -14,7 +14,7 @@ function Home(){
             <div>
                 <p>
                     Bonjour, je m’appelle <span>Cristofer Guardia </span>
-                    Passioné pour le developement de logiciel et étudiant en
+                    Passionné pour le développement de logiciel et étudiant en
                     Génie Électrique et Informatique Industrielle (GEII).
                 </p>
                 <Button content={'  Mon CV  '} address='./cv-cristofer-guardia.pdf'></Button>
