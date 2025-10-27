@@ -55,12 +55,10 @@
     
 }
 
-
-@media (min-width: 600px) and (min-height: 900px)  {
+@media (min-width: 600px) and (max-width: 1024px) and (min-height: 900px)  {
     .home{
         width: 100%;
         height: fit-content;
-        /* max-height: 1027px; */
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -106,7 +104,6 @@
     .home{
         width: 100%;
         height: fit-content;
-        /* max-height: 1027px; */
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -151,7 +148,6 @@
     .home{
         width: 100%;
         height: fit-content;
-        /* max-height: 1027px; */
         display: flex;
         justify-content: center;
         flex-wrap: wrap;

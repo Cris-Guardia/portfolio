@@ -9,7 +9,9 @@
 } */
 
 body {
+  width: 100%;
   margin: 0;
+  padding: 0;
   height: fit-content;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -18,9 +20,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* #root{
-  height: 100%;
-}  */
+#root{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+} 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

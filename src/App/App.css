@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  color: #CFDBD5;
+  background-color: none;
+}
+
+.App{
+  width: 100%;
+  height: fit-content;
+  padding: 0;
+  overflow: hidden; 
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #242423;
+}
+
+span{
+  color: #F5CB5C;
+}
+
+@media (max-width: 854px) {
+  .App{
+    display: flex;
+    justify-content: center;
+  }
+}

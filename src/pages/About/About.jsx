@@ -31,6 +31,17 @@ function About(){
                         <li>
                             <span>
                                 <CiCalendar />
+                                <h6>À partir de septembre 2025</h6>
+                            </span>
+                            <h4>I.U.T de Gradignan</h4>
+                            <p>
+                                Formation en Génie Électrique et Informatique Industrielle (GEII)
+                                axée sur les systèmes automatisés, l'électronique et la programmation industrielle.
+                            </p>
+                        </li>
+                        <li>
+                            <span>
+                                <CiCalendar />
                                 <h6>À partir de septembre 2024</h6>
                             </span>
                             <h4>I.U.T de Tarbes</h4>
@@ -64,10 +75,20 @@ function About(){
             </section>
 
             <section>
-                <h3>Expériences professionnelles</h3>
+                <h3>Expériences Personnelles</h3>
 
                 <div className='ul-container'>
                     <ul>
+                        <li>
+                            <span>
+                                <CiCalendar />
+                                <h6>À partir de Aôut 2025</h6>
+                            </span>
+                            <h4>McDonald's, Merignac</h4>
+                            <p>
+                                Employé polyvalent responsable de la préparation des plats et du nettoyage.
+                            </p>
+                        </li>
                         <li>
                             <span>
                                 <CiCalendar />

@@ -7,7 +7,7 @@ import { CiMail } from 'react-icons/ci'
 import { FiPhone } from 'react-icons/fi'
 import { FiLinkedin } from 'react-icons/fi'
 import { FiGithub } from 'react-icons/fi';
-import { GrLocation } from 'react-icons/gr';
+// import { GrLocation } from 'react-icons/gr';
 import './Contact.css'
 
 function Contact(){

@@ -1,8 +1,6 @@
 
 .projects{
-    /* width: 70%; */
     padding: 50px;
-    /* margin: auto; */
 
     display: flex;
     flex-wrap: wrap;
@@ -16,69 +14,25 @@
     width: 70%;
     font-size: 50px;
     margin: 40px 0;
+    text-align: center;
     color: #F5CB5C;
 }
 
-.projects div{
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+@media (max-width: 854px) {
 
-.projects div h3{
-    margin-block: 10px;
-    color: #F5CB5C;
-}
-
-.projects div p{
-    margin-bottom: 20px;
-}
-
-.projects div figure{
-    width: 100%;
-}
-
-.projects div figure img{
-    width: 100%;
-}
-
-@media (max-width: 540px) {
-
-    .projects div{
+    .projects {
         width: 95%;
-    }
-
-    /* .projects{
-        width: 100%;
-        padding: 50px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+        padding: 10px;
 
         animation-name: apear;
         animation-duration: 1s;
     }
-    
-    .projects div {
-        width: 100%;
-    }
-    
-    .projects div aside{
-        width: 100%;
+
+    .projects h2{
+        text-align: center;
     }
 
-    .projects div figure{
-        width: 100%;
-    }
-    
-    .projects div figure img{
-        width: 100%;
-    } */
 }
-
 
 @keyframes apear {
     from { 
@@ -90,4 +44,3 @@
         margin-left: none;
     }
 }
-

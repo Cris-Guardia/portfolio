@@ -1,4 +1,4 @@
-import { Button } from '../../components/Button/Button'
+import { Button } from '../../Components/Button/Button'
 
 import './Home.css'
 /*
@@ -17,10 +17,10 @@ function Home(){
                     Passionné pour le développement de logiciel et étudiant en
                     Génie Électrique et Informatique Industrielle (GEII).
                 </p>
-                <Button content={'  Mon CV  '} address='./cv-cristofer-guardia.pdf'></Button>
+                <Button content={'  Mon CV  '} address='./CV-Cristofer-Guardia.pdf'></Button>
             </div>
             <figure>
-                <img src='./photo-cristofer.png' alt='Cristofer Guardia' />
+                <img src='./Images/photo-cristofer.png' alt='Cristofer Guardia' />
             </figure>
         </main>
     )
