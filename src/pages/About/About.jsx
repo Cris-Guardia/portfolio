@@ -12,9 +12,18 @@ function About(){
             <h2>À propos de moi</h2>
 
             <p>
-                Vénézuélien, étudiant international et autonome. Actuellement en première année de Génie Électrique et Informatique Industrielle à l’IUT de Tarbes, je suis passionné par l’informatique et le développement logiciel.
-                Auparavant, j’ai poursuivi des études en Ingénierie Informatique au Venezuela pendant un an, une expérience qui a renforcé mon intérêt pour le secteur du logiciel. Mon objectif est de devenir Ingénieur en Informatique et de me spécialiser dans le domaine de l’Informatique Industrielle.
-                Je possède des compétences en développement web Frontend, maîtrisant diverses technologies telles que HTML, CSS, JavaScript, React.js, ainsi qu’en Backend avec Express.js.
+                Vénézuélien, étudiant international et autonome, je suis actuellement en deuxième année de BUT GEII.
+                Passionné par l’informatique et le développement logiciel, je m’intéresse particulièrement aux logiciels embarqués,
+                tels que ceux développés avec Arduino ou MicroPython.
+                Avant mon arrivée en France, j’ai étudié l’informatique au Venezuela pendant un an,
+                une formation équivalente à une première année de BUT Informatique.
+                Cette expérience a renforcé mon intérêt pour le développement logiciel et les systèmes embarqués.
+                Mon objectif est de devenir ingénieur en informatique, spécialisé dans la robotique ou la programmation appliquée à l’aéronautique.
+                <br/>
+
+                Je possède également des compétences en développement web, aussi bien en frontend (HTML, CSS, JavaScript, React.js) qu’en backend (Express.js),
+                ainsi qu’une bonne maîtrise des outils de gestion de version tels que Git et GitHub. Toutes ces compétences, je les ai acquises en autonomie.
+                <br/>
                 Par ailleurs, je parle :
                 <ul>
                     <li>Français : DELF B2.</li>
@@ -42,7 +51,7 @@ function About(){
                         <li>
                             <span>
                                 <CiCalendar />
-                                <h6>À partir de septembre 2024</h6>
+                                <h6>Septembre 2024 - Juin 2025</h6>
                             </span>
                             <h4>I.U.T de Tarbes</h4>
                             <p>
