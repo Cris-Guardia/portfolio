@@ -44,8 +44,8 @@ function About(){
                             </span>
                             <h4>I.U.T de Gradignan</h4>
                             <p>
-                                Formation en Génie Électrique et Informatique Industrielle (GEII)
-                                axée sur les systèmes automatisés, l'électronique et la programmation industrielle.
+                                Actuellement en deuxième année de BUT Génie Électrique et Informatique Industrielle (GEII),
+                                avec une spécialisation en Automatisme et Informatique Industrielle.
                             </p>
                         </li>
                         <li>
